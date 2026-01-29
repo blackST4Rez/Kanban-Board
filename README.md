@@ -9,7 +9,7 @@
     Built with pure HTML, CSS, and JavaScript — no frameworks, no build tools.
   </p>
 
-  ## <a href="https://unghabungha.netlify.app/" target="blank">🚀 Live Demo</a>
+  ## <a href="https://unghabungha.netlify.app/">🚀 Live Demo</a>
   <br>
 
   <!-- Badges -->
