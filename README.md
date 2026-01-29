@@ -9,6 +9,10 @@
     Built with pure HTML, CSS, and JavaScript — no frameworks, no build tools.
   </p>
 
+  ## 🚀 Live Demo
+
+     🌐 [Try it live →](https://blackST4Rez.github.io/Kanban-Board/)  
+
   <br>
 
   <!-- Badges -->
@@ -47,12 +51,6 @@
 | Vanilla JavaScript | Logic, drag & drop, interactivity | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 | Font Awesome 6   | Icons                            | ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=flat-square&logo=font-awesome&logoColor=white) |
 | Google Fonts     | Typography (Syne)                | —                                                                             |
-
-<br>
-
-## 🚀 Live Demo
-
-🌐 [Try it live →](https://blackST4Rez.github.io/Kanban-Board/)  
 
 <br>
 
