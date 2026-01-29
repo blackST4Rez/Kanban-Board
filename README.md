@@ -1,55 +1,65 @@
-# Kanban Board
+<div align="center">
 
-A beautiful, modern **drag-and-drop Kanban board** built with pure **HTML**, **CSS**, and **JavaScript** (no frameworks).
+  # Kanban Board ✨
 
-Organize tasks in three classic columns: **To Do** → **In Progress** → **Done**
+  <br>
 
-![Kanban Board Preview](https://via.placeholder.com/1280x720/879bf5/ffffff?text=Kanban+Board+Screenshot)  
-*(Replace this with a real screenshot – highly recommended!)*
+  <p>
+    <strong>A clean, modern, and fully interactive drag-and-drop Kanban board</strong><br>
+    Built with pure HTML, CSS, and JavaScript — no frameworks, no build tools.
+  </p>
 
-## ✨ Features
+  <br>
 
-- 🎨 Clean & modern UI with animated landing page
-- 🖱️ Full **drag-and-drop** support (using native HTML Drag & Drop API)
-- ➕ Add new tasks via modal (title, description, tags, choose column)
-- 🏷️ Color-coded tags (Design, Docs, Bug, Backend, Test, Database)
-- 🔢 Real-time task counters per column
-- 🎭 Visual feedback while dragging (highlight, rotation, shadow)
-- 📱 Responsive design (works on mobile – columns stack vertically)
-- 🌈 Status-based left border colors (red = To Do, yellow = Progress, green = Done)
-- Smooth animations & transitions throughout
+  <!-- Badges -->
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=font-awesome&logoColor=white" alt="Font Awesome">
+  </p>
 
-## 🖼️ Screenshots
+  <br>
+</div>
 
-### Landing Page
-![Landing Page](https://via.placeholder.com/800x600/2a5db5/ffffff?text=Animated+Landing+Page)
+<br>
 
-### Main Board
-![Main Board](https://via.placeholder.com/1280x720/f5f7fa/333?text=Kanban+Board+with+Tasks)
+## 🌟 Features
 
-### Add Task Modal
-![Add Task Modal](https://via.placeholder.com/600x500/ffffff/667eea?text=Add+New+Task+Modal)
+- 🎨 Elegant animated landing page with letter-drop animation  
+- 🖱️ Smooth **native drag-and-drop** between columns  
+- ➕ Add tasks with title, description, tags & target column via modern modal  
+- 🏷️ Beautiful tag system with distinct colors  
+- 🔢 Live task counters per column  
+- 🎭 Rich drag feedback (highlight, shadow, slight rotation)  
+- 🌈 Status-based visual indicators (To Do / In Progress / Done)  
+- 📱 Fully responsive layout — stacks nicely on mobile  
+- ⚡ Lightweight: ~150 KB total (no dependencies except CDNs)
 
-*(Tip: Take real screenshots and upload them to the repo or use imgur/imgbb)*
+<br>
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- HTML5
-- CSS3 (Flexbox + Grid + Animations)
-- Vanilla JavaScript (ES6+)
-- Font Awesome 6 (icons)
-- Google Fonts – Syne
+| Technology       | Purpose                          | Icon / Badge                                                                 |
+|------------------|----------------------------------|-------------------------------------------------------------------------------|
+| HTML5            | Structure                        | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| CSS3             | Styling & animations             | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| Vanilla JavaScript | Logic, drag & drop, interactivity | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| Font Awesome 6   | Icons                            | ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=flat-square&logo=font-awesome&logoColor=white) |
+| Google Fonts     | Typography (Syne)                | —                                                                             |
 
-**No build tools, no frameworks, no npm – just open `index.html`!**
+<br>
 
 ## 🚀 Live Demo
 
-https://your-username.github.io/your-repo-name/  
-*(Deploy to GitHub Pages, Netlify, Vercel, etc. and update link)*
+🌐 [Try it live →](https://blackST4Rez.github.io/Kanban-Board/)  
 
-## 📋 How to Run Locally
+<br>
+
+## 🏁 Quick Start (Local)
 
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/kanban-board.git
+   git clone https://github.com/blackST4Rez/Kanban-Board.git
+   cd kanban-board
