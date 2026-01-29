@@ -11,7 +11,7 @@
 
   ## 🚀 Live Demo
 
-     🌐 [Try it live →](https://blackST4Rez.github.io/Kanban-Board/)  
+     🌐 [Try it live →](#https://blackST4Rez.github.io/Kanban-Board/)  
 
   <br>
 
