@@ -6,36 +6,184 @@
     <title>Kanban Board</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
 </head>
 
-    <body>
-        
-        <div class="container">
-            <h1>Kanban Board</h1>
-                <!--List 1-->
-            <div class="board">
-                <div class="list" id="list1">
-                    <h2>To Do</h2>
-                    <div class="card" draggable="true" id="card1">Wash Dishes</div>
-                    <div class="card" draggable="true" id="card2">Wash Dishes</div>
-                    <div class="card" draggable="true" id="card3">Wash Dishes</div>
+<body>
+    <div class="landing-screen">
+        <div class="landing-content">
+            <h1 class="landing-title">
+                <span class="title-letter">K</span>
+                <span class="title-letter">a</span>
+                <span class="title-letter">n</span>
+                <span class="title-letter">b</span>
+                <span class="title-letter">a</span>
+                <span class="title-letter">n</span>
+                <span class="title-space"></span>
+                <span class="title-letter">B</span>
+                <span class="title-letter">o</span>
+                <span class="title-letter">a</span>
+                <span class="title-letter">r</span>
+                <span class="title-letter">d</span>
+            </h1>
+            <p class="landing-subtitle">Organize your tasks with drag & drop simplicity</p>
+            <div class="landing-features">
+                <div class="feature">
+                    <i class="fas fa-arrows-alt"></i>
+                    <p>Drag & Drop</p>
                 </div>
-                <!--List2-->
-                <div class="list" id="list1">
-                    <h2>In Progress</h2>
-                    <div class="card" draggable="true" id="card1">Wash Dishes</div>
-                    <div class="card" draggable="true" id="card2">Wash Dishes</div>
+                <div class="feature">
+                    <i class="fas fa-columns"></i>
+                    <p>Three Columns</p>
                 </div>
-                <!--List3-->
-                <div class="list" id="list1">
-                    <h2>Done</h2>
+                <div class="feature">
+                    <i class="fas fa-tasks"></i>
+                    <p>Task Management</p>
                 </div>
             </div>
-
+            <button class="start-btn" id="startBtn">
+                Get Started <i class="fas fa-arrow-right"></i>
+            </button>
+            <div class="scroll-hint">
+                <i class="fas fa-chevron-down"></i>
+            </div>
         </div>
+    </div>
 
-    </body>
+    <div class="main-content hidden">
+        <div class="container">
+            <div class="board-header">
+                <img src="favicon.png" alt="logo" width="50px">
+                <button class="add-task-btn" id="addTaskBtn">
+                    <i class="fas fa-plus"></i> Add Task
+                </button>
+            </div>
+            <div class="board">
+                <!-- To Do -->
+                <div class="list" data-list="todo">
+                    <div class="list-header">
+                        <h2><i class="fas fa-clipboard-list"></i> To Do</h2>
+                        <span class="task-count">3</span>
+                    </div>
+                    <div class="card" draggable="true" data-card="1">
+                        <div class="card-content">
+                            <h3>Design Homepage</h3>
+                            <p>Create responsive homepage layout</p>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag design">Design</span>
+                        </div>
+                    </div>
+                    <div class="card" draggable="true" data-card="2">
+                        <div class="card-content">
+                            <h3>Write Documentation</h3>
+                            <p>Document API endpoints</p>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag docs">Docs</span>
+                        </div>
+                    </div>
+                    <div class="card" draggable="true" data-card="3">
+                        <div class="card-content">
+                            <h3>Fix Bugs</h3>
+                            <p>Resolve login page issues</p>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag bug">Bug</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- In Progress -->
+                <div class="list" data-list="progress">
+                    <div class="list-header">
+                        <h2><i class="fas fa-spinner"></i> In Progress</h2>
+                        <span class="task-count">2</span>
+                    </div>
+                    <div class="card" draggable="true" data-card="4">
+                        <div class="card-content">
+                            <h3>Implement API</h3>
+                            <p>Create RESTful endpoints</p>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag backend">Backend</span>
+                        </div>
+                    </div>
+                    <div class="card" draggable="true" data-card="5">
+                        <div class="card-content">
+                            <h3>Write Tests</h3>
+                            <p>Unit tests for modules</p>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag test">Test</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Done -->
+                <div class="list" data-list="done">
+                    <div class="list-header">
+                        <h2><i class="fas fa-check-circle"></i> Done</h2>
+                        <span class="task-count">1</span>
+                    </div>
+                    <div class="card" draggable="true" data-card="6">
+                        <div class="card-content">
+                            <h3>Setup Database</h3>
+                            <p>Configure MongoDB connection</p>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag database">Database</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <br> <br>
+        <hr>
+        
+        <footer class="foot">
+            Made with ❤️‍🔥 by Raka.
+        </footer>
+    </div>
+
+    <!-- Task Modal -->
+    <div class="modal hidden" id="taskModal">
+        <div class="modal-content">
+            <h2>Add New Task</h2>
+            <form id="taskForm">
+                <div class="form-group">
+                    <label for="taskTitle">Task Title</label>
+                    <input type="text" id="taskTitle" placeholder="Enter task title" required>
+                </div>
+                <div class="form-group">
+                    <label for="taskDescription">Description</label>
+                    <textarea id="taskDescription" placeholder="Enter task description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="taskList">Select List</label>
+                    <select id="taskList">
+                        <option value="todo">To Do</option>
+                        <option value="progress">In Progress</option>
+                        <option value="done">Done</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Tags</label>
+                    <div class="tags-select">
+                        <span class="tag-option" data-tag="design">Design</span>
+                        <span class="tag-option" data-tag="docs">Docs</span>
+                        <span class="tag-option" data-tag="bug">Bug</span>
+                        <span class="tag-option" data-tag="backend">Backend</span>
+                        <span class="tag-option" data-tag="test">Test</span>
+                        <span class="tag-option" data-tag="database">Database</span>
+                    </div>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="cancel-btn" id="cancelBtn">Cancel</button>
+                    <button type="submit" class="submit-btn">Add Task</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
     <script src="script.js"></script>
-
+</body>
 </html>
