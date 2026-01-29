@@ -9,10 +9,7 @@
     Built with pure HTML, CSS, and JavaScript — no frameworks, no build tools.
   </p>
 
-  ## 🚀 Live Demo
-
-     🌐 [Try it live →](#https://blackST4Rez.github.io/Kanban-Board/)  
-
+  ## <a href="">🚀 Live Demo</a>
   <br>
 
   <!-- Badges -->
